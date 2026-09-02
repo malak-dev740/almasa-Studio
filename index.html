@@ -47,7 +47,6 @@
 
   :focus-visible{outline:2px solid var(--coral); outline-offset:4px;}
 
-  /* ---------- Nav ---------- */
   header{
     position:fixed;
     top:18px; left:18px; right:18px;
@@ -97,7 +96,6 @@
     header{padding:12px 12px 12px 20px;}
   }
 
-  /* ---------- Reveal ---------- */
   .reveal{
     opacity:0;
     transform:translateY(36px);
@@ -105,7 +103,6 @@
   }
   .reveal.in{opacity:1; transform:translateY(0);}
 
-  /* ---------- Hero ---------- */
   .hero{
     min-height:100vh;
     display:flex;
@@ -227,7 +224,6 @@
 
   @media(max-width:720px){ .hero{padding:130px 22px 90px;} }
 
-  /* ---------- Section shell ---------- */
   section{padding:140px 0; position:relative;}
 
   .section-tag{
@@ -272,7 +268,6 @@
     section{padding:96px 0;}
   }
 
-  /* ---------- Services ---------- */
   .services-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -339,7 +334,6 @@
 
   @media(max-width:800px){ .services-grid{grid-template-columns:1fr;} }
 
-  /* ---------- Portfolio ---------- */
   .portfolio-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -388,8 +382,6 @@
 
   @media(max-width:800px){ .portfolio-grid{grid-template-columns:1fr 1fr;} }
   @media(max-width:520px){ .portfolio-grid{grid-template-columns:1fr;} }
-
-  /* ---------- Process ---------- */
   .process-list{display:flex; flex-direction:column; gap:18px;}
 
   .process-row{
@@ -426,7 +418,6 @@
 
   @media(max-width:800px){ .process-row{grid-template-columns:1fr; gap:10px; padding:30px 24px;} }
 
-  /* ---------- Testimonials ---------- */
   .testi-grid{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
 
   .testi-card{
@@ -462,7 +453,6 @@
 
   @media(max-width:800px){ .testi-grid{grid-template-columns:1fr;} .testi-card{padding:36px 26px;} }
 
-  /* ---------- Contact ---------- */
   .contact-section{
     background:
       radial-gradient(ellipse 800px 500px at 15% 15%, rgba(106,43,184,0.6), transparent 60%),
@@ -552,7 +542,6 @@
 
   @media(max-width:800px){ .contact-grid{grid-template-columns:1fr; gap:50px;} .contact-section{margin:0 12px; border-radius:26px;} }
 
-  /* ---------- Footer ---------- */
   footer{padding:40px 32px;}
   .footer-inner{
     max-width:1200px; margin:0 auto;
